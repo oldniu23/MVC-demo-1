@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* 取消列表的默认style */
+ol,
+ul {
+  list-style: none;
+}
